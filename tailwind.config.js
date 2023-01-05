@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        gmf1: 'rgba(255,255,255,.9)'
+      },
       spacing: {
         '2/3': '66.666667%',
       },
