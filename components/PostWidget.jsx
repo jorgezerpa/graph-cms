@@ -22,10 +22,10 @@ const PostWidget = ({ categories, slug }) => {
   }, [slug]);
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
-      <h3 className="text-xl mb-8 font-semibold border-b pb-4">{slug ? 'Related Posts' : 'Recent Posts'}</h3>
+    <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8 border-2 border-gray-200">
+      <h3 className="text-xl mb-8 font-semibold border-b pb-4 border-purple-800">{slug ? 'Related Posts' : 'Recent Posts'}</h3>
       {relatedPosts.map((post, index) => (
-        <div key={index} className="flex items-center w-full mb-4">
+        <div key={index} className="flex items-center w-full mb-10 sm:mb-4 flex-col sm:flex-row">
           <div className="w-16 flex-none">
             <Image
               loader={grpahCMSImageLoader}
