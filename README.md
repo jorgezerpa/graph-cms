@@ -1,14 +1,20 @@
-# GraphCMS Headless Blog
-### [Live Site](https://nextjs-plum-five-51.vercel.app/)
+### Important!
+I don't start this project from scratch, I take the base code from the [Adrian Hajdin repository](https://github.com/adrianhajdin). This man has an amazing  youtube channel [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) with amazing content. All base project credits for him <3.
 
-![GraphCMS Headless Blog](https://i.ibb.co/NmnJnKD/image.png)
+## How to run project Locally?
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://resource.jsmasterypro.com/newsletter
+1. Clone this repository 
+```
+https://github.com/jorgezerpa/graph-cms.git
+```
+1. Install all dependencies **(preferibly use clean install)**
+```
+npm ci 
+```
+1. create a __.env__ file on the root folder and set the needed variables. (You will find enviroment variables information on the **.env.example** file).
+1. You can start the project with the command:
+```
+npm run dev
+```
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
-
-With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive CMS Blog App is the best Blog Application that you can currently find on YouTube. And what's best of all is that you and your clients can manage the blog from a dedicated Content Management System.
-
-You'll also learn how to work with GraphCMS. GraphCMS is a headless content management system based on GraphQL technology enabling seamless integration with any application.
+### Happy coding my friend :)
